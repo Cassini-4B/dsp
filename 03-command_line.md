@@ -22,7 +22,29 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
----
+---pwd: show current working directory path
+---mkdir: create a directory
+rm -r: deletes directories
+touch: creates new file in current directory
+rm: deletes files
+mv: moves files or renames files
+ls -a: lists hidden files
+cp: copies files from one directory to another
+
+
+cd: change directory
+ls: lists all directories/files in current directory
+cat > writes from one file to another
+cat >> appends one file to another
+cat: outputs contents of file to console
+sort: sorts stdin
+uniq: filters out adjacent, duplicate lines in file (adjacent only, so it's good to sort first)
+grep: searches for lines that match a pattern and returns results (like re, stands for global reg ex print)
+sed: find and replace
+
+
+
+
 
 ### Q2.  List Files in Unix   
 
@@ -37,6 +59,13 @@ What do the following commands do:
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
+ls: lists files in current directory
+ls -a: lists all files, including hidden ones
+ls -l: lists files using long listing format
+ls -lh: list using human readable format
+ls -lah: lists all files in human readable format
+ls -t: sort by modification time, newest first
+ls -Glp: no group, indicator style slash
 ---
 
 ### Q3.  More List Files in Unix  
@@ -44,6 +73,12 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+ls -d: displays only directories
+ls -c: displays files by file timestamp
+ls -r: displays files in reverse order
+ls -u: displays files by file access time
+ls -1: displays each entry on a line.
 
 ---
 
@@ -53,5 +88,6 @@ What does `xargs` do? Give an example of how to use it.
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
+xargs is a tool that takes in a standard input and executes a command.  For example you can use it to find all .txt files in the current directory through: xargs find -name '*.txt'
  
 
