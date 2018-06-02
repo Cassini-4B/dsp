@@ -88,16 +88,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> 
 
->>The probability of a male birth is P(M) = 1/2.  The probability of a male given an identical twin birth is P(M|I) = 1/2.  The probability of a male given a fraternal twin birth is P(M|F) = 1/2 * 1/2 = 1/4.  The probability of a fraternal birth is P(F) = 1/125 and the probability of an identical birth is P(I) = 1/300.  Thus, using Bayes theorem, the probability of an identical birth given that both babies are male is:
+>>The probability of a male birth is P(M) = 1/2.  The probability of a male given an identical twin birth is P(M|I) = 1/2.  The probability of a male given a fraternal twin birth is P(M|F) = 1/2 * 1/2 = 1/4.  The probability of a fraternal birth is P(F) = 1/125 and the probability of an identical birth is P(I) = 1/300.  Thus, using Bayes theorem, the probability of an identical birth given that both babies are male is: 5/11.
 
->>   P(M|I) * P(I)                 P(M|I) * P(I)                    1/2 * 1/300
-
->> ----------------  =  ------------------------------- =  ------------------------    =   5/11
-
->>      P(M)              P(M|I) * P(I) + P(M|F) * P(F)     1/2 * 1/300 + 1/4 * 1/125
-
-   
->>The probability that Elvis was an identical twin is 45%.  
+  
+>>Thus the probability that Elvis was an identical twin is 45%.  
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
